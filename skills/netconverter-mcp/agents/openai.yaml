@@ -1,0 +1,11 @@
+interface:
+  display_name: "netconverter-mcp"
+  short_description: "Migrate and review with hosted or bridge MCP"
+  default_prompt: "Use $netconverter-mcp to help with my NetConverter migration."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "netconverter"
+      description: "NetConverter hosted migration and evidence tools; account access required"
+      transport: "streamable_http"
+      url: "https://api.netconverter.ai/mcp/v1/"

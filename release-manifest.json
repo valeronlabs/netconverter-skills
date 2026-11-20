@@ -1,0 +1,64 @@
+{
+  "assets": {
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NOTICE": "4eedf4c12a63cb06e8b27e1c5bb058acac0a2271402eaac8f00336dda69517b1",
+    "firewall-pre-migration-checklist.zip": "29bb69c7774fb69913aef4f53a348d6b20fe5fbd5db6d08ec8f965d3c0e62756",
+    "netconverter-claude-toolkit.zip": "dca5d127b2353c0b5a53e7f1dd0acf0755e446d6e653df47865b4a5473f86820",
+    "netconverter-customer-toolkit.zip": "19b078b846ac2ab16d36db0f7cbc721726af4d4aaeb678910789845b9da60baf",
+    "netconverter-mcp.md": "8e3d37df03d943e7e4275337971302fcd9f8704e7ed5145d6dd4370679fbd47b",
+    "netconverter-mcp.zip": "eea8349fe63a6a422b8cda24480297f3a0dde2872842fd7967b09e3f8cdc9b29",
+    "netconverter-private-marketplace.zip": "2dc76a22d594dfee346a67e041e9b47fa1ba19c7c5cfbabec61fab59c20d068f",
+    "netconverter.skill": "eea8349fe63a6a422b8cda24480297f3a0dde2872842fd7967b09e3f8cdc9b29",
+    "safe-config-collection.zip": "9b1f033a43ec36f324b87176776b47af5c64d2a954d39f533939996267b595f1"
+  },
+  "commit": "19ecfe3be4484bf528d7a4e912743f3d8c21ee51",
+  "dirty": false,
+  "plugin": {
+    "agents": [
+      "migration-architect",
+      "evidence-reviewer"
+    ],
+    "artifacts": {
+      "claude": "netconverter-claude-toolkit.zip",
+      "marketplace": "netconverter-private-marketplace.zip",
+      "portable": "netconverter-customer-toolkit.zip"
+    },
+    "connection": "plugin/connection.json",
+    "metadata": "plugin/metadata.json"
+  },
+  "publication": "private-candidate",
+  "repository": "valeronlabs/netconverter-skills",
+  "schema_version": 1,
+  "skills": [
+    "firewall-pre-migration-checklist",
+    "safe-config-collection",
+    "netconverter-mcp"
+  ],
+  "sources": {
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NOTICE": "4eedf4c12a63cb06e8b27e1c5bb058acac0a2271402eaac8f00336dda69517b1",
+    "plugin/INSTALL.md": "d7db57d5321b20734cc9d08dce0c3dd835f8cf7def3c5ac221a5b25d2dd8c44f",
+    "plugin/agents/evidence-reviewer.md": "ae0edab07bf592c751e0a753346b44de351c012269fd3015782f1e126a1c30c3",
+    "plugin/agents/migration-architect.md": "13ea0ce94fd66f80a8938c929883e12424d24927b4240c5eec93e7125913df19",
+    "plugin/assets/icon.png": "93da18540dc4c0b7ea61724cd9eba3a0158fb29c975a0727091958011c9d3736",
+    "plugin/connection.json": "0514fa39c80f774692396562165642978d54ca7a73b5476670817625d5dae4a8",
+    "plugin/metadata.json": "18457232b39da09ed13f0241f3cfed833bcb2a0e8bce3931886b66fc4e787271",
+    "release-manifest.json": "ba8ac6b1af45e353859e60f096fbaa08444b2ecf425fe99da86995aee10c0606",
+    "skills/firewall-pre-migration-checklist/SKILL.md": "40bb710a577f93e6f68ff9be75868117bea196b8c695fdd6e55e77a9679c8b6e",
+    "skills/firewall-pre-migration-checklist/agents/openai.yaml": "c356eb3df11c3850c88341e2d525506cbc70d555a36cd42bf92bf6af124f38c6",
+    "skills/firewall-pre-migration-checklist/references/vendor-pair-notes.md": "2d71fe759416701ccc3edd84bf5dc36953298132643b25e33a3aeb17528752fa",
+    "skills/netconverter-mcp/SKILL.md": "cef981065be270e7b9e9990f057813f51be96923a2be484ee03eb0e9c0527fbe",
+    "skills/netconverter-mcp/agents/openai.yaml": "433f0ac9b1d3bfed565de70fe69761c3db5872f07f64ca9d6fa554985e35f904",
+    "skills/netconverter-mcp/references/examples.md": "d534a02acf90ce1490585a72385a7b74a3f10b6a22484b93f258accf024819f7",
+    "skills/netconverter-mcp/references/file-transfers.md": "86b12970a4b60c089b9f9ac0ccffa83dda57362d8f301c8f886f184f72a5af3c",
+    "skills/netconverter-mcp/references/guided-decisions.md": "3a11788067a1a818b8a8d13bd42c547e5adcb5a7d062cef88cab39afc8b0049b",
+    "skills/netconverter-mcp/references/platforms.md": "693984f204acd49334ec9f7a36084771d0177ee5c7c9e617e889bb4a7ce61d0e",
+    "skills/netconverter-mcp/references/project-brief.md": "8e721719bdee74524391d0f9843d5b8f3ca16e472d27677b6f8e9dffcbb68176",
+    "skills/netconverter-mcp/references/tool-reference.md": "aef1f9e84dce805918c74cb260038b10dd6e091dad6740cb34c4cd7e8e42d31d",
+    "skills/netconverter-mcp/references/troubleshooting.md": "187823f32ae0b06711d1eba4411cff8bccb7df82addce3621ec200327983c97a",
+    "skills/safe-config-collection/SKILL.md": "53cfba537efd2c4156787560aed03ab6bb9431820f56aebb01cf69316f7439fa",
+    "skills/safe-config-collection/agents/openai.yaml": "e7bff06a327c196c294a0adf6f82b762d09482418af9782355b92d4e3fd8d13b",
+    "skills/safe-config-collection/references/collection.md": "c52614f680f406ee1672e432819633e1290168257302bb9558872e9edee0563d"
+  },
+  "version": "1.0.0-rc.8"
+}

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "netconverter": {
+      "type": "http",
+      "url": "https://api.netconverter.ai/mcp/v1/",
+      "oauth": {
+        "clientId": "RjSv1z2Gms6iS96s",
+        "callbackPort": 33418
+      }
+    }
+  }
+}

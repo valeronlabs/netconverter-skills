@@ -1,0 +1,13 @@
+{
+  "name": "netconverter-private",
+  "owner": {
+    "name": "ValeronLabs LLC"
+  },
+  "description": "Private NetConverter toolkit candidate for installation and workflow qualification.",
+  "plugins": [
+    {
+      "name": "netconverter-customer-toolkit",
+      "source": "./plugins/claude"
+    }
+  ]
+}

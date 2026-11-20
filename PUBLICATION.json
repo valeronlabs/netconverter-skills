@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0-rc.8",
+  "status": "public-prerelease",
+  "owner_approved": "2026-11-20",
+  "source_commit": "19ecfe3be4484bf528d7a4e912743f3d8c21ee51",
+  "repository": "valeronlabs/netconverter-skills",
+  "source_history": "private; excluded from this distribution",
+  "asset_policy": "Original RC8 release assets are unchanged; release-manifest publication records build-time candidate status.",
+  "acceptance": "Limited; final RC8 ChatGPT, Cowork UI and Cursor acceptance pending. See README."
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "firewall-pre-migration-checklist"
+  short_description: "Prepare a firewall migration evidence checklist"
+  default_prompt: "Use $firewall-pre-migration-checklist to help with my NetConverter migration."

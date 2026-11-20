@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "netconverter-customer-toolkit",
+  "description": "Collect network evidence, plan migrations and guide NetConverter jobs.",
+  "author": {
+    "name": "ValeronLabs LLC"
+  },
+  "homepage": "https://netconverter.ai/skills.html",
+  "repository": "https://github.com/valeronlabs/netconverter-skills",
+  "license": "Apache-2.0",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "NetConverter",
+        "shortDescription": "Network migration planning and evidence review",
+        "longDescription": "Collection guidance and migration checklists work without a NetConverter account. Hosted MCP workflows require an authorized account and enabled server capabilities. No device deployment is included.",
+        "developerName": "ValeronLabs LLC",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://netconverter.ai",
+        "privacyPolicyURL": "https://netconverter.ai/privacy.html",
+        "termsOfServiceURL": "https://netconverter.ai/terms.html",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png",
+        "defaultPrompt": [
+          "Help me plan a firewall migration and identify missing evidence.",
+          "Review my NetConverter job evidence and explain unresolved findings.",
+          "Guide changes to my migration decisions using the tools available to my account."
+        ]
+      }
+    }
+  },
+  "version": "1.0.0-rc.8"
+}

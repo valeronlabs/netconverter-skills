@@ -1,0 +1,4 @@
+interface:
+  display_name: "safe-config-collection"
+  short_description: "Plan scoped configuration and evidence capture"
+  default_prompt: "Use $safe-config-collection to help with my NetConverter migration."
